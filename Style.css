@@ -33,16 +33,16 @@ footer {
 
 .card:hover {
     transform: translatey(-10px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
 }
 
 .carousel-item img {
-    height: 500px;
+    height: 550px;
     object-fit: cover;
 }
 
 .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.55);
     padding: 20px;
     border-radius: 10px;
 }
