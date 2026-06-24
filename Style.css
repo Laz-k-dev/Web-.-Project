@@ -71,3 +71,8 @@ footer a: hoover;
     color: gold;
     font-size: 1.2rem;
 }
+
+.cars-img-top{
+    height: 250px;
+    object-fit: cover;
+}
