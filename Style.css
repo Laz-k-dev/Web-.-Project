@@ -16,6 +16,7 @@ body {
 
 .navbar{
   background-color: var(--dark-color);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 }
 
 .btn-custom {
@@ -29,11 +30,13 @@ footer {
 
 .card{
     transition: all 0.3s ease;
+    border: none;
+    border-radius: 15px;
 }
 
 .card:hover {
     transform: translatey(-10px);
-    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
 }
 
 .carousel-item img {
@@ -75,4 +78,22 @@ footer a:hover{
 .cars-img-top{
     height: 250px;
     object-fit: cover;
+}
+
+body{
+    background-color: #f8f9fa;
+}
+
+.navbar{
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary{
+    border-radius: 50px;
+    padding: 10px 25px;
+}
+
+section{
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
