@@ -59,7 +59,7 @@ footer a {
     text-decoration: none;
 }
 
-footer a: hoover;
+footer a:hover{
     text-decoration: underline;
 }
 

@@ -13,16 +13,15 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         });
     }
-});
 
-const searchInput = document.getElementById("searchInput");
-if (searchInput) {
+    const searchInput = document.getElementById("searchInput");
+    if (searchInput) {
     searchInput.addEventListener("keyup", function() {
         let filter = searchInput.value.toLowerCase();
         let cards = document.querySelectorAll(".product-card");
 
         cards.forEach(card => {
-            let title = card.textContent.toLowerCase();
+            let text = card.textContent.toLowerCase();
             
             if(text.includes(filter)) {
                 card.style.display = "";
@@ -31,4 +30,5 @@ if (searchInput) {
             }
         });
     });
-}
+    }
+});
