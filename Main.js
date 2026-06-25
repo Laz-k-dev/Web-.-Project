@@ -10,6 +10,11 @@ document.addEventListener("DOMContentLoaded", function() {
             if(name === "" || email === "" || message === "") {
                 alert("Please fill in all fields.");
                 event.preventDefault();
+                return;
+            }
+            if(!email.includes("@")) {
+                alert("Please enter a valid email address.");
+                event.preventDefault();
             }
         });
     }
