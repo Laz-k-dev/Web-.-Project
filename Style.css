@@ -97,3 +97,16 @@ section{
     padding-top: 60px;
     padding-bottom: 60px;
 }
+
+.hero-overlay{
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-caption h2{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.carousel-caption p{
+    font-size: 1.2rem;
+}
