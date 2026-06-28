@@ -34,138 +34,204 @@
     </nav>
 </header>
 
-<section class="bg-dark text-white text-center py-5 shadow">
-    <h1 class="fw-bold">Explore Our Products</h1>
-    <p> Discover our wide range of high-quality tech products designed to meet your needs.</p>
+<section class="bg-dark text-white py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <span class="badge bg-primary mb-3"> Premium Tech Store </span>
+                <h1 class="display-4 fw-bold"> Explore Our Latest Technology Products </h1>
+                <p class="lead"> Shop from our wide collection of premium gadgets, smart devices, gaming accessories, mobile accessories, computer peripherals and much more—all at competitive prices. </p>
+                <a href="#products" class="btn btn-primary btn-lg me-3"> Shop Now </a>
+                <a href="deals.html" class="btn btn-outline-light btn-lg"> View Deals </a>
+            </div>
+
+            <div class="col-lg-6 text-center">
+                <img src="images/products-banner.png" class="img-fluid" alt="Prime Tech Products">
+            </div>
+        </div>
+    </div>
 </section>
 
-<main class="container py-5">
-    <h1 class="text-center mb-5">Our Products</h1>
-
-    <div class="mb-4">
-
-        <input
-            type="text"
-            id="searchInput"
-            class="form-control"
-            placeholder="Search products ...">
-
+<section class="container py-5">
+    <div class="text-center mb-4">
+        <h2 class="fw-bold">
+            Browse by Category </h2>
+        <p class="text-muted">
+            Find products that match your needs. </p>
     </div>
 
-    <div class="row">
-        <div class="col-md-4 mb-4 product-card">
-            <div class="card h-100">
-                <img src="images/Headphones1.jpg" class="card-img-top" alt="Product 1">
-                <div class="card-body">
-                    <span class="badge bg-success">New</span>
-                    <h5 class="card-title">Oraimo Wireless Headphones</h5>
-                    <p class="rating-starts">★★★★★</p>
-                    <p class="card-text">Premium sound quality with an active noise cancellation feature.</p>
-                    <p><strong>KES 4,999</strong></p>
-                    <button class="btn btn-primary">View Details</button>
-                </div>
-            </div>
-        </div>
+    <div class="d-flex flex-wrap justify-content-center gap-2">
+        <button class="btn btn-outline-primary category-btn active" data-category="all"> All </button>
+        <button class="btn btn-outline-primary category-btn" data-category="audio">  Audio </button>
+        <button class="btn btn-outline-primary category-btn" data-category="gaming"> Gaming </button>
+        <button class="btn btn-outline-primary category-btn" data-category="mobile"> Mobile </button>
+        <button class="btn btn-outline-primary category-btn" data-category="computer"> Computer </button>
+        <button class="btn btn-outline-primary category-btn" data-category="smart"> Smart Devices </button>
+        <button class="btn btn-outline-primary category-btn"  data-category="power"> Power </button>
+    </div>
+</section>
 
-        <div class="col-md-4 mb-4 product-card">
-            <div class="card h-100">
-                <img src="images/xiaomi watch 4 smartwatch.jpg" class="card-img-top" alt="Product 2">
-                <div class="card-body">
-                    <span class="badge bg-danger">Sale</span>
-                    <h5 class="card-title">Xiaomi Watch 4 Smartwatch</h5>
-                    <p class="rating-starts">★★★★★</p>
-                    <p class="card-text">Track your fitness, health metrics, and notifications. </p>
-                    <p><strong>KES 6,499</strong></p>
-                    <button class="btn btn-primary">View Details</button>
-                </div>
-            </div>
-        </div>
+<section class="container pb-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-6">
+            <div class="input-group">
+                <input
+                    type="text"
+                    class="form-control"
+                    id="searchInput"
+                    placeholder="Search products...">
 
-        <div class="col-md-4 mb-4 product-card">
-            <div class="card h-100">
-                <img src="images/Oraimo FreePods 4 - True Wireless Earbuds with Advanced Noise cancellation.jpg" class="card-img-top" alt="Product 3">
-                <div class="card-body">
-                    <span class="badge bg-warning text-dark">Popular</span>
-                    <h5 class="card-title">Oraimo FreePods 4 True Wireless Earbuds</h5>
-                    <p class="rating-starts">★★★★★</p>
-                    <p class="card-text">Experience crystal-clear sound with advanced noise cancellation.</p>
-                    <p><strong>KES 2,499</strong></p>
-                    <button class="btn btn-primary">View Details</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-4 mb-4 product-card">
-            <div class="card h-100">
-                <img src="images/Oraimo SpaceBuds Lite OTW-324 True Wireless Earbuds - Black 1.jpg" class="card-img-top" alt="Product 4">
-                <div class="card-body">
-                    <span class="badge bg-success">New</span>
-                    <h5 class="card-title">Oraimo SpaceBuds Lite</h5>
-                    <p class="rating-starts">★★★★★</p>
-                    <p class="card-text">Experience crystal-clear sound with advanced noise cancellation.</p>
-                    <p><strong>KES 2,499</strong></p>
-                    <button class="btn btn-primary">View Details</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-4 mb-4 product-card">
-            <div class="card h-100">
-                <img src="images/Oraimo Watch ER OSW-42 Smartwatch.jpg" class="card-img-top" alt="Product 5">
-                <div class="card-body">
-                    <span class="badge bg-success">New</span>
-                    <h5 class="card-title">Oraimo Watch ER OSW-42 Smartwatch</h5>
-                    <p class="rating-starts">★★★★★</p>
-                    <p class="card-text">Track your fitness, health metrics, and notifications.</p>
-                    <p><strong>KES 6,499</strong></p>
-                    <button class="btn btn-primary">View Details</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-4 mb-4 product-card">
-            <div class="card h-100">
-                <img src="images/Headphones.jpg" class="card-img-top" alt="Product 6">
-                <div class="card-body">
-                    <span class="badge bg-warning text-dark">Popular</span>
-                    <h5 class="card-title">Oraimo Headphones</h5>
-                    <p class="rating-starts">★★★★★</p>
-                    <p class="card-text">Experience crystal-clear sound with advanced noise cancellation.</p>
-                    <p><strong>KES 2,499</strong></p>
-                    <button class="btn btn-primary">View Details</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-4 mb-4 product-card">
-            <div class="card h-100">
-                <img src="images/Oraimo Watch 5 Lite OSW-804 HD Touch Sreen Smart Watch.jpg" class="card-img-top" alt="Product 7">
-                <div class="card-body">
-                    <span class="badge bg-success">New</span>
-                    <h5 class="card-title">Oraimo Watch 5 Lite</h5>
-                    <p class="rating-starts">★★★★★</p>
-                    <p class="card-text">Track your fitness, health metrics, and notifications.</p>
-                    <p><strong>KES 6,499</strong></p>
-                    <button class="btn btn-primary">View Details</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-4 mb-4 product-card">
-            <div class="card h-100">
-                <img src="images/Wireless Gaming Mouse.jpg" class="card-img-top" alt="Product 8">
-                <div class="card-body">
-                    <span class="badge bg-success">New</span>
-                    <h5 class="card-title">Oraimo Wireless Gaming Mouse</h5>
-                    <p class="rating-starts">★★★★★</p>
-                    <p class="card-text">Precision control for professional gamers.</p>
-                    <p><strong>KES 2,499</strong></p>
-                    <button class="btn btn-primary">View Details</button>
-                </div>
+                <button class="btn btn-primary"  onclick="searchProducts()">
+                    <i class="bi bi-search"></i> Search </button>
             </div>
         </div>
     </div>
-</main>
+</section>
+
+<section id="products" class="container pb-5">
+    <div class="row g-4">
+        <div class="col-lg-3 col-md-6 product-card" data-category="audio">
+            <div class="card h-100">
+                <img src="images/headphones.jpg" class="card-img-top" alt="Wireless Headphones">
+                <div class="card-body">
+                    <span class="badge bg-danger"> SALE </span>
+                    <h5 class="mt-3"> Wireless Headphones </h5>
+                    <p> Premium over-ear wireless headphones with noise cancellation. </p>
+                    <h4 class="text-primary"> KSh 8,999 </h4>
+                    <p class="text-warning"> ★★★★★ </p>
+                    <button class="btn btn-primary w-100"> Add to Cart </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 product-card" data-category="gaming">
+            <div class="card h-100">
+                <img src="images/Wireless Gaming Mouse.jpg" class="card-img-top" alt="Gaming Mouse">
+                <div class="card-body">
+                    <span class="badge bg-success"> NEW </span>
+                    <h5 class="mt-3"> RGB Gaming Mouse </h5>
+                    <p> High precision gaming mouse with customizable RGB lighting. </p>
+                    <h4 class="text-primary"> KSh 3,499 </h4>
+                    <p class="text-warning"> ★★★★★ </p>
+                    <button class="btn btn-primary w-100"> Add to Cart </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 product-card" data-category="mobile">
+            <div class="card h-100">
+                <img src="images/Oraimo FreePods 4 - True Wireless Earbuds with Advanced Noise cancellation.jpg" class="card-img-top" alt="Power Bank">
+                <div class="card-body">
+                    <span class="badge bg-warning text-dark"> BEST SELLER </span>
+                    <h5 class="mt-3"> FreePods 4 </h5>
+                    <p> True Wireless Earbuds with Advanced NoiSE Cancellation.</p>
+                    <h4 class="text-primary"> KSh 4,299 </h4>
+                    <p class="text-warning"> ★★★★★ </p>
+                    <button class="btn btn-primary w-100"> Add to Cart </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 product-card" data-category="computer">
+            <div class="card h-100">
+                <img src="images/Headphones1.jpg" class="card-img-top" alt="Mechanical Keyboard">
+
+                <div class="card-body">
+                    <span class="badge bg-primary"> POPULAR </span>
+                    <h5 class="mt-3"> Oraimo Headphones </h5>
+                    <p> With long lasting battery health and an active noise cancellation. </p>
+                    <h4 class="text-primary"> KSh 6,999 </h4>
+                    <p class="text-warning"> ★★★★★ </p>
+                    <button class="btn btn-primary w-100"> Add to Cart </button>
+                </div>
+            </div>
+        </div>
+                <!-- PRODUCT 5 -->
+
+        <div class="col-lg-3 col-md-6 product-card" data-category="smart">
+            <div class="card h-100">
+                <img src="images/xiaomi watch 4 smartwatch.jpg" class="card-img-top" alt="Smart Watch">
+                <div class="card-body">
+                    <span class="badge bg-success">NEW</span>
+                    <h5 class="mt-3">Smart Watch Pro</h5>
+                    <p> Track your health, fitness and notifications in style. </p>
+                    <h4 class="text-primary"> KSh 9,499 </h4>
+                    <p class="text-warning fs-5"> ★★★★★ </p>
+                    <button class="btn btn-primary w-100"> Add to Cart </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 product-card" data-category="power">
+            <div class="card h-100">
+                <img src="images/Oraimo Watch 5 Lite OSW-804 HD Touch Sreen Smart Watch.jpg" class="card-img-top" alt="UPS">
+                <div class="card-body">
+                    <span class="badge bg-danger">SALE</span>
+                    <h5 class="mt-3"> Oraimo Watch 5 Lite</h5>
+                    <p> Touch Screen Smart Watch that tracks your health </p>
+                    <h4 class="text-primary"> KSh 11,999 </h4>
+                    <p class="text-warning fs-5"> ★★★★★ </p>
+                    <button class="btn btn-primary w-100"> Add to Cart </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 product-card" data-category="audio">
+            <div class="card h-100">
+                <img src="images/Oraimo Watch ER OSW-42 Smartwatch.jpg" class="card-img-top" alt="Bluetooth Speaker">
+                <div class="card-body">
+                    <span class="badge bg-primary"> POPULAR </span>
+                    <h5 class="mt-3"> OraimoER Smart Watch </h5>
+                    <p> With a Strong non-breakable screen, and a long lasting battery health. </p>
+                    <h4 class="text-primary"> KSh 5,499 </h4>
+                    <p class="text-warning fs-5"> ★★★★★ </p>
+                    <button class="btn btn-primary w-100"> Add to Cart </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 product-card" data-category="computer">
+            <div class="card h-100">
+                <img src="images/webcam.jpg" class="card-img-top" alt="HD Webcam">
+                <div class="card-body">
+                    <span class="badge bg-warning text-dark">  BEST SELLER </span>
+                    <h5 class="mt-3"> HD Webcam </h5>
+                    <p>  Crystal-clear video for meetings and online classes. </p>
+                    <h4 class="text-primary"> KSh 4,799 </h4>
+                    <p class="text-warning fs-5"> ★★★★★ </p>
+                    <button class="btn btn-primary w-100"> Add to Cart </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 product-card" data-category="gaming">
+            <div class="card h-100">
+                <img src="images/controller.jpg"  class="card-img-top" alt="Gaming Controller">
+                <div class="card-body">
+                    <span class="badge bg-success"> NEW </span>
+                    <h5 class="mt-3">  Wireless Controller </h5>
+                    <p> Responsive controller compatible with PC and console. </p>
+                    <h4 class="text-primary"> KSh 6,499 </h4>
+                    <p class="text-warning fs-5"> ★★★★★ </p>
+                    <button class="btn btn-primary w-100"> Add to Cart </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 product-card" data-category="mobile">
+            <div class="card h-100">
+                <img src="images/charger.jpg" class="card-img-top" alt="Fast Charger">
+                <div class="card-body">
+                    <span class="badge bg-danger"> 20% OFF </span>
+                    <h5 class="mt-3"> 45W Fast Charger </h5>
+                    <p> Super-fast USB-C charger for phones and tablets. </p>
+                    <h4 class="text-primary"> KSh 2,299 </h4>
+                    <p class="text-warning fs-5"> ★★★★★ </p>
+                    <button class="btn btn-primary w-100"> Add to Cart </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="main.js"></script>
